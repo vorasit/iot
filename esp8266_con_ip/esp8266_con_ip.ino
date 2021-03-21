@@ -1,7 +1,7 @@
 #include <ESP8266WiFi.h> //เป็นการเรียกใช้ Library โมดูล ESP8266
 
-const char* ssid = "PIN_ITI24_2.4G"; //สร้างตัวแปรไว้เก็บชื่อ ssid ของ AP ของเรา
-const char* pass = "0939025133"; //สร้างตัวแปรไว้เก็บชื่อ password ของ AP ของเรา
+const char* ssid = "AndroidAPDCC4"; //สร้างตัวแปรไว้เก็บชื่อ ssid ของ AP ของเรา
+const char* pass = "wzcn9521"; //สร้างตัวแปรไว้เก็บชื่อ password ของ AP ของเรา
 
 void setup () {
   Serial.begin(115200); //ตั้งค่าใช้งาน serial ที่ baudrate 115200
