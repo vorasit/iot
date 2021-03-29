@@ -5,7 +5,7 @@
 #include <time.h>
 //#include <FirebaseJson.h>
 #define FIREBASE_HOST "kmutnbline-gpvrvc-default-rtdb.firebaseio.com"
-#define FIREBASE_AUTH "*************************"
+#define FIREBASE_AUTH "DELspZtoKBWdufNfTPpMCGKqN3bRzHODsRu0Gri1"
 // Config connect WiFi
 #define WIFI_SSID "PIN_ITI24_2.4G"
 #define WIFI_PASSWORD "0939025133"
@@ -119,7 +119,7 @@ void loop() {
 
     //Also can use Firebase.push instead of Firebase.pushJSON
     //Json string is not support in v 2.6.0 and later, only FirebaseJson object is supported.
-    if (Firebase.pushJSON(fbdo, path + "Humidity:", json))
+    if (Firebase.pushJSON(fbdo, path + "/Humidity:", json))
     {
       Serial.println("PASSED Humidity");
       delay(1000);
@@ -137,7 +137,7 @@ void loop() {
 
     //Also can use Firebase.push instead of Firebase.pushJSON
     //Json string is not support in v 2.6.0 and later, only FirebaseJson object is supported.
-    if (Firebase.pushJSON(fbdo, path + "Temperature:", json1))
+    if (Firebase.pushJSON(fbdo, path + "/Temperature:", json1))
     {
       Serial.println("PASSED Temperature");
       delay(1000);
