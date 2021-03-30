@@ -7,9 +7,9 @@
 #define FIREBASE_HOST "kmutnbline-gpvrvc-default-rtdb.firebaseio.com"
 #define FIREBASE_AUTH "DELspZtoKBWdufNfTPpMCGKqN3bRzHODsRu0Gri1"
 // Config connect WiFi
-#define WIFI_SSID "PIN_ITI24_2.4G"
-#define WIFI_PASSWORD "0939025133"
-#define DHTPIN D2
+#define WIFI_SSID "B4-12_2G"
+#define WIFI_PASSWORD "12345678"
+#define DHTPIN D4
 #define DHTTYPE DHT22
 DHT dht(DHTPIN, DHTTYPE);
 int timezone = 7;
