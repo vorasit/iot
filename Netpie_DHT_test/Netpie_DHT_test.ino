@@ -2,8 +2,8 @@
 #include <ESP8266WiFi.h>
 #include "DHT.h"
 
-const char* ssid     = "B4-12_2G";
-const char* password = "12345678";
+const char* ssid     = "PIN_ITI24_2.4G";
+const char* password = "0939025133";
 
 #define APPID   "vorasit"
 #define KEY     "J8mAjFSNzN8RlUz"
