@@ -2,8 +2,8 @@
 #include <ESP8266WiFi.h>
 #include "DHT.h"
 
-const char* ssid     = "PIN_ITI24_2.4G";
-const char* password = "0939025133";
+const char* ssid     = "B4-12_2G";
+const char* password = "12345678";
 
 #define APPID   "vorasit"
 #define KEY     "J8mAjFSNzN8RlUz"
@@ -13,7 +13,7 @@ const char* password = "0939025133";
 #define TargetWeb "HTML_web"
 
 #define D4 2   // TXD1
-#define DHTPIN D2     // what digital pin we're connected to
+#define DHTPIN D4     // what digital pin we're connected to
 #define DHTTYPE DHT22   // DHT 11
 
 DHT dht(DHTPIN, DHTTYPE);
