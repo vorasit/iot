@@ -39,9 +39,9 @@
 
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-char auth[] = "aVviPhZMMDlIyuiY-qiTZm1GIRcFsm-X";
-char ssid[] = "AndroidAPDCC4";
-char pass[] = "wzcn9521";
+char auth[] = "3fx1L_FPHueXrGwIzuoRvf7SVzWO1UH7";
+char ssid[] = "B4-12_2G";
+char pass[] = "12345678";
 #define DHTPIN D2        // What digital pin we're connected to
 
 // Uncomment whatever type you're using!
