@@ -1,10 +1,10 @@
 #include <DHT.h>
 #include <ESP8266WiFi.h>
-String apiKey = "MTI3XZ5CYPJFF0ZO"; // thingspeak API key ที่ได้จากการสร้างของผู้ใช้
-const char* ssid = "cv"; // กรอก ssid ที่ปล่อยสัญญาณ Wi-Fi
-const char* password = "t24112541"; //กรอก รหัสผ่านสัญญาณ Wi-Fi
+String apiKey = "BNEZDA35I5SGJX90"; // thingspeak API key ที่ได้จากการสร้างของผู้ใช้
+const char* ssid = "B4-12_2G"; // กรอก ssid ที่ปล่อยสัญญาณ Wi-Fi
+const char* password = "12345678"; //กรอก รหัสผ่านสัญญาณ Wi-Fi
 const char* server = "api.thingspeak.com";
-#define DHTPIN D4
+#define DHTPIN D2
 #define DHTTYPE DHT22 // DHT11 if useDHT11
 DHT dht(DHTPIN, DHTTYPE);
 WiFiClient client;
