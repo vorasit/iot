@@ -9,4 +9,7 @@ setup library MicroGear
 
 สร้าง freeboard > DATASOUTRCE > type NETPIE MICROgear >ใส่ให้ครบ > SUBSCRIBED TOPIC /dht 
 
-ADD PANE จะได้ช่องมา > กด + > type GAUGE > VALUE datasources["name Datasource"]["/APP id /dht"].split(",")[0]
+ADD PANE จะได้ช่องมา > กด + > type GAUGE > VALUE datasources["name Datasource"]["/APP ID /dht"].split(",")[0]
+
+//ถ้าใช้ dht จะใช้อุณหภูมิ
+type GAUGE > VALUE datasources["name Datasource"]["/APP ID /dht"].split(",")[1]
