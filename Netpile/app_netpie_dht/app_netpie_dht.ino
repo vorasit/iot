@@ -1,15 +1,15 @@
 #include <DHT.h>
 #include <ESP8266WiFi.h>
 #include <MicroGear.h>
-const char* ssid     = "PIN_ITI24_2.4G";
-const char* password = "0939025133";
+const char* ssid     = "B4-12_2G";
+const char* password = "12345678";
 
-#define APPID   "vorasit"
-#define KEY     "J8mAjFSNzN8RlUz"
-#define SECRET  "WeflVCITg2hcb7Kc0Q8Yub5Ra"
+#define APPID   "IoTPin"
+#define KEY     "1E2BomDKqDhcEVt"
+#define SECRET  "YRaLmGej5VQRwBuXi0vGkWCXA"
 
 
-#define ALIAS   "NodeMCU1"
+#define ALIAS   "DHT22"
 
 WiFiClient client;
 
