@@ -93,7 +93,7 @@ void Line_Notify(String message) {
   // Serial.println(req);
   client.print(req);
     
-  delay(20);
+  delay(1000);
 
   // Serial.println("-------------");
   while(client.connected()) {
