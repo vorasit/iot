@@ -5,8 +5,8 @@
 void Line_Notify(String message) ;
 #include <WiFiClientSecureAxTLS.h>
 char auth[] = "3fx1L_FPHueXrGwIzuoRvf7SVzWO1UH7";
-char ssid[] = "B4-12_2G";
-char pass[] = "12345678";
+char ssid[] = "PIN_ITI24_2.4G";
+char pass[] = "0939025133";
 
 // Line config
 #define LINE_TOKEN "tzZfEUEHQGsQJMx6A2AzEgnYtwPWLPsI3OBUJl3cTBh"
