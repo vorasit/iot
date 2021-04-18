@@ -4,12 +4,12 @@
 #include "DHT.h"
 void Line_Notify(String message) ;
 #include <WiFiClientSecureAxTLS.h>
-char auth[] = "3fx1L_FPHueXrGwIzuoRvf7SVzWO1UH7";
-char ssid[] = "PIN_ITI24_2.4G";
-char pass[] = "0939025133";
+char auth[] = "******token blynk*******";
+char ssid[] = "*******user wifi****";
+char pass[] = "********password wifi **********";
 
 // Line config
-#define LINE_TOKEN "tzZfEUEHQGsQJMx6A2AzEgnYtwPWLPsI3OBUJl3cTBh"
+#define LINE_TOKEN "****** line token *********"
 
 #define DHTTYPE DHT22 
 #define DHTPIN D2
